@@ -1,13 +1,44 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #161616
+}
+.block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+img {
+  width: 500px;
+}
+.cartIcon {
+  width: 70px;
+}
+.categoryButton:hover {
+  background-color: #fdeb6b;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.categoryButtonSelected{
+  background-color: green;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.icon {
+  width: 20px;
+}
+p, h1, h2, button {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+background-color: #fdeb6b;
+margin: 10px;
+padding: 5px;
+border-radius: 10px;
 }
